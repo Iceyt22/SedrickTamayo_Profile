@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S. Tamayo — Developer Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app" id="app">
+
+  <header class="sidebar">
+    <div>
+      <div class="logo-mark grad-logo-mark">//PORTFOLIO</div>
+      <div class="logo-name grad-logo-name">S.TAMAYO</div>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    <hr class="nav-line">
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="active">01 Home</a>
+      <a href="#profile">02 Profile</a>
+      <a href="#projects">03 Projects</a>
+      <a href="#contact">04 Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="hero-glow"></div>
+      <span class="eyebrow grad-solid-gold">— Computer Science Student</span>
+      <h1 class="grad-hero"><span class="accent">SED</span><span class="white">EVELOPER</span></h1>
+      <p class="hero-lede">Motivated Computer Science student leveraging technical skills to drive team success through leadership and mentorship initiatives. Deep fascination for learning something new</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects →</a>
+        <a href="assets/resume.pdf" class="btn btn-outline">Download Resume</a>
+      </div>
+      <a href="#contact" class="contacts-link">contacts ↓</a>
+    </section>
+
+    <section id="profile">
+      <h2 class="grad-heading">About me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <h3 class="about-name">Sedrick Tamayo</h3>
+          <div class="about-row">
+            <div class="about-label">EDUCATION</div>
+            <div class="about-value">Holy Angel University – BS in Computer Science</div>
+          </div>
+          <div class="about-row">
+            <div class="about-label">EXPERIENCE</div>
+            <div class="about-value">Competitor – Philippine Robothon 2025 Innovative Category</div>
+          </div>
+        </div>
+        <div class="about-photo">
+          <img src="images/MyPicture.png" alt="Sedrick Tamayo">
+        </div>
+      </div>
+
+      <h4 class="beyond-heading">Beyond the code:</h4>
+      <p class="beyond-text">A proactive leader and event organizer passionate about youth empowerment, community building, and end-to-end execution. Dedicated to taking full ownership of project lifecycles—managing strategy, logistics, and coordination before, during, and after every initiative.</p>
+
+      <div class="skills-heading" style="margin-top:56px;">SKILLS:</div>
+      <div class="skills-row">
+        <span class="skill-tag"><span class="skill-dot gold"></span>Java</span>
+        <span class="skill-tag"><span class="skill-dot gold"></span>Python</span>
+        <span class="skill-tag"><span class="skill-dot gold"></span>SQL</span>
+        <span class="skill-tag"><span class="skill-dot gold"></span>HTML/CSS</span>
+        <span class="skill-tag"><span class="skill-dot orange"></span>Logic Formulation</span>
+        <span class="skill-tag"><span class="skill-dot orange"></span>Project Management</span>
+        <span class="skill-tag"><span class="skill-dot orange"></span>Interpersonal Communication</span>
+        <span class="skill-tag"><span class="skill-dot orange"></span>Adaptability</span>
+        <span class="skill-tag"><span class="skill-dot orange"></span>Leadership</span>
+      </div>
+    </section>
+
+
+    <section id="projects">
+      <h2 class="grad-heading">Projects</h2>
+      <p class="section-sub">A selection of things I've built</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>The Little Prince website</h3>
+          <p>A personal project for &ldquo;The Little Prince&rdquo;, a book I personally love</p>
+          <!-- TODO: replace # with the real project URL -->
+          <a href="https://iceyt22.github.io/The_LIttle_Prince/" class="project-visit">visit</a>
+        </article>
+        <article class="project-card">
+          <h3>Philippine Constitution Civic Guide</h3>
+          <p>Personal &amp; Educational project about the 1987 Constitution of the Philippines.</p>
+          <!-- TODO: replace # with the real project URL -->
+          <a href="https://iceyt22.github.io/philippine-constitution-guide/" class="project-visit">visit</a>
+        </article>
+        <article class="project-card">
+          <h3>Python Sorting Studio</h3>
+          <p>Different sorting types in Data Structure and Analytics with visualization for visual learners</p>
+          <!-- TODO: replace # with the real project URL -->
+          <a href="https://iceyt22.github.io/python-sorting-visualizer/" class="project-visit">visit</a>
+        </article>
+      </div>
+
+      <div class="certs-link-row">
+        <span class="label-box">Certificates</span>
+        <button class="view-btn" id="viewCertsBtn">view</button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="grad-heading">Contact</h2>
+      <p class="section-sub">Open to backend roles, contract work, or just talking through an interesting systems problem.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <span class="label">EMAIL</span>
+          <a class="value" href="mailto:sedricktamayo07@gmail.com">sedricktamayo07@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <span class="label">GITHUB</span>
+          <a class="value underline" href="https://github.com/Iceyt22" target="_blank" rel="noopener">https://github.com/Iceyt22</a>
+        </div>
+        <div class="contact-card">
+          <span class="label">LINKEDIN</span>
+          <a class="value" href="https://www.linkedin.com/in/sedrick-tamayo/" target="_blank" rel="noopener">https://www.linkedin.com/in/sedrick-tamayo/</a>
+        </div>
+        <div class="contact-card">
+          <span class="label">RESUME</span><br>
+          <a class="resume-btn" href="assets/resume.pdf">Download PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="certificates-page">
+      <div class="certs-header">
+        <h2 class="grad-heading" style="margin:0;">Certificates</h2>
+        <button class="return-btn" id="returnBtn">return</button>
+      </div>
+
+      <h3 class="cert-category">Skill Based</h3>
+      <div class="cert-grid">
+        <div class="cert-card gold-glow">
+          <img src="images/certificates/CompTIA Tech+ certificate_page-0001.jpg" alt="CompTIA Tech+ Certificate — Sedrick Marion Diñoso Tamayo">
+        </div>
+        <div class="cert-card gold-glow">
+          <img src="images/certificates/Sedrick_CR1061_certificate_page-0001.jpg" alt="UniAthena / CIQ — Basics of Data Science">
+        </div>
+        <div class="cert-card gold-glow">
+          <img src="images/certificates/Git Training_page-0001.jpg" alt="SkillUp — Git Training Certificate of Completion">
+        </div>
+        <div class="cert-card gold-glow">
+          <img src="images/certificates/Introduction to Figma.jpg" alt="SkillUp — Introduction to Figma Certificate of Completion">
+        </div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+      </div>
+
+      <h3 class="cert-category">Participation</h3>
+      <div class="cert-grid">
+        <div class="cert-card filled">
+          <img src="images/certificates/TAMAYO, SEDRICK MARION D. Certificate of Participation_page-0001.jpg" alt="Holy Angel University — Tech Talk Certificate of Participation">
+        </div>
+        <div class="cert-card filled">
+          <img src="images/certificates/Tamayo, Sedrick Marion D. Certificate (1)_page-0001.jpg" alt="DEVCON — Programming and Logic Design Workshop Certificate">
+        </div>
+        <div class="cert-card filled">
+          <img src="images/certificates/GDGCERT.png" alt="Google Developer Groups Infosession Certificate of Participation">
+        </div>
+        <div class="cert-card filled">
+          <img src="images/certificates/SEDRICK MARION D. TAMAYO Certificate of Participation_page-0001 (1).jpg" alt="Holy Angel University — 4th Regional Cybersecurity Conference Certificate">
+        </div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+        <div class="cert-card reserved"><span class="placeholder-label">reserved</span></div>
+      </div>
+    </section>
+
+    <footer>© 2026 Sedrick Tamayo — built with intent, not templates.</footer>
+  </main>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
